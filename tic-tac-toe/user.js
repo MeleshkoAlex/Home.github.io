@@ -7,10 +7,13 @@
 		work.addEventListener('click',workFunc);
 		
 	function workFunc(event){
+		var target = event && event.target || event.srcElement;
+		if(target.innerHTML == 'x' || target.innerHTML == '0'){
+			return;
+		}
 		var step = (prevStep == '0')  ? 'x' : '0';
 		prevStep = step;
 		walks.innerHTML = (prevStep == '0')  ? 'x' : '0';
-		var target = event && event.target || event.srcElement;
 		if(target.tagName == 'LI'){
 			target.innerHTML = step;
 			checkResult();	
