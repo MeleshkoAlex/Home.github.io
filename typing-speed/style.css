@@ -1,0 +1,83 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.wrap{
+	width: 1170px;
+	margin: 0 auto;
+}
+body{
+	min-height: 100vh;
+	background-color: rgba(212,25,29,.0);
+	background-image: url(http://365psd.ru/images/backgrounds/wood-texture-012.jpg);
+}
+.error{
+	background-color:rgba(212,25,29,.3);
+}
+.timer{
+	position: absolute;
+	left: calc(47%);
+	top:20px;
+	font-size: 22px;
+}
+.result{
+	color: red;
+	font-weight: bold;
+	font-size: 22px;
+}
+.start-but{
+	border: 1px solid #000;
+	background: #f3f3f3;
+	padding: 5px 15px;
+	margin: 0 30px 0 0;
+	font-weight: bold;
+	font-size: 18px;
+
+}
+.text{
+	font-size: 20px;
+	line-height: 24px;
+	font-weight: bold;
+	min-height: 230px;
+}
+.werp{
+	height: 100%;
+	min-height: 100vh;
+}
+.block-text{
+	border: 3px solid #000;
+	padding: 20px;
+}
+.input-div{
+	padding: 20px;
+	border: 3px solid #000;
+	min-height: 250px;
+	outline: none;
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: bold;
+}
+.input-div:focus{
+	border-color: pink;
+	box-shadow: inset 1px 1px 30px rgba(0,0,0,.3);
+}
+#lang{
+	outline: none;
+	border:1px solid #000;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 30px 30px 30px 0;
+}
+#lang option{
+	font-size: 14px;
+	font-weight: bold;
+}
+.text {
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none; 
+}
