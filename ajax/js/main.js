@@ -16,7 +16,7 @@
 			}
 
 		}
-		xmlhttp.open('Get', 'http://jsonplaceholder.typicode.com/posts');
+		xmlhttp.open('Get', 'https://cors.io/?http://jsonplaceholder.typicode.com/posts');
 		xmlhttp.send();
 	};
 	function concData(){
